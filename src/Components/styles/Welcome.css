@@ -1,0 +1,106 @@
+.WTMP_DIV{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 50vh;
+    margin: 10px;
+}
+.WTMP_DIV_H1{
+    text-align: center;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    font-weight: 600;
+    font-size: 40px;
+    color: rgb(43, 13, 50);
+}
+.P_DIV_LST{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 50vh;
+    margin: 10px;
+}
+.P_DIV_LST_P1{
+    text-align: center;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    font-weight: 500;
+    color: rgb(43, 13, 50);
+}
+.P_DIV_LST_P1:nth-child(1){
+    font-size: 20px;
+    font-weight: 500;
+}
+.P_DIV_LST_P1:nth-child(2){
+    font-size: 30px;
+    font-weight: 600;
+}
+.P_DIV_LST_P1:nth-child(3){
+    font-size: 25px;
+    font-weight: 500;
+}
+.P_DIV_LST_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 70vh;
+    margin: 10px;
+}
+.P_DIV_LST_P2{
+    text-align: justify;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    font-size: 14px;
+    margin: 10px 10px 40px 10px;
+}
+.LNK_DIV_LST_L{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(43, 13, 50);
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+    .WTMP_DIV_H1{
+        font-size: 30px;
+    }
+    .P_DIV_LST_P1:nth-child(1){
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .P_DIV_LST_P1:nth-child(2){
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .P_DIV_LST_P1:nth-child(3){
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .P_DIV_LST_1{
+        height: 90vh;
+    }
+}
+@media screen and (max-width: 425px) {
+    .WTMP_DIV_H1{
+        font-size: 20px;
+    }
+    .P_DIV_LST_1{
+        height: 130vh;
+    }
+}
+@media screen and (max-width: 320px) {
+    .P_DIV_LST_1{
+        height: 150vh;
+    }
+}
