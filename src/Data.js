@@ -86,7 +86,66 @@ export const Projects1 = [
 ]
 
 export const Projects2 = [
-
+    {
+        id: "REACT1",
+        name: "Game Hub: Puzzles & Play 2.O",
+        image: "../../images/React_Pro1.png",
+        link: "https://game-hub-puzle-play-2-o-react-atishks.netlify.app/"
+    },
+    {
+        id: "REACT2",
+        name: "Mail Client Box In React",
+        image: "../../images/React_Pro2.png",
+        link: "https://react-mail-client-box-m-atish-k-sahu.netlify.app/"
+    },
+    {
+        id: "REACT3",
+        name: "Expense Report In React",
+        image: "../../images/React_Pro3.png",
+        link: "https://expense-app-react-redux-atish-k-sahu.netlify.app/"
+    },
+    {
+        id: "REACT4",
+        name: "My Problem Solver",
+        image: "../../images/React_Pro4.png",
+        link: "https://my-problem-solver-react-atish-k-sahu.netlify.app/"
+    },
+    {
+        id: "REACT5",
+        name: "TrendBlendz E-Commerce App",
+        image: "../../images/React_Pro5.png",
+        link: "https://trendblendz-atish-react-kumar-sahuweb.netlify.app/"
+    },
+    {
+        id: "REACT6",
+        name: "Speedy Snacks React App",
+        image: "../../images/React_Pro6.png",
+        link: "https://speedy-snacks-react-atish-kumar-sahu.netlify.app/"
+    },
+    {
+        id: "REACT7",
+        name: "Expense Report With Charts",
+        image: "../../images/React_Pro7.png",
+        link: "https://atishksahu-expensetracker-chart-react.netlify.app/"
+    },
+    {
+        id: "REACT8",
+        name: "Admin Panel Medicine Shop",
+        image: "../../images/React_Pro8.png",
+        link: "https://admin-panel-medicine-shop-react-atish.netlify.app/"
+    },
+    {
+        id: "REACT9",
+        name: "React To-Do App 2.O",
+        image: "../../images/React_Pro9.png",
+        link: "https://atish-kumar-sahu-react-to-do-app-02.netlify.app/"
+    },
+    {
+        id: "REACT10",
+        name: "React To-Do App 1",
+        image: "../../images/React_Pro10.png",
+        link: "https://atish-kumar-sahu-todo-list-react-app.netlify.app/"
+    }
 ]
 
 export const Projects3 = [

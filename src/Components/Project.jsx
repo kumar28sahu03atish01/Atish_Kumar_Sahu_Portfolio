@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles/Project.css";
-import { Projects1, Work } from "../Data"; 
+import { Projects2, Projects1, Work } from "../Data"; 
 export const Project = () => {
     return (
         <>
@@ -23,6 +23,20 @@ export const Project = () => {
                         </div>
                     ))
                 }
+            </div>
+            <div className="DIV_PRO1">
+                <div className="DIV_PRO_H1_DIV"><h1 className="DIV_PRO_H1_DIV_H1_D">Projects</h1></div>
+                <div className="DIV_PRO_PRO_LIST">
+                    {
+                        Projects2.map(pro => (
+                            <div key={pro.id} className="DIV_PRO_PRO_LIST_P">
+                                <img className="PRO_IMAGE" src={pro.image} alt={pro.name} width="400px" height="200px" />
+                                <p className="PRO_PT">{pro.name}</p>
+                                <a className="PRO_A_LINK" href={pro.link} target="_blank">Click Here!</a>
+                            </div>
+                        ))
+                    }
+                </div>
             </div>
             <div className="DIV_PRO">
                 <div className="DIV_PRO_H1_DIV"><h1 className="DIV_PRO_H1_DIV_H1_D">Projects</h1></div>
